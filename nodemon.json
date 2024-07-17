@@ -1,0 +1,5 @@
+{
+  "watch": ["public/assets"],
+  "ext": "png,jpg,jpeg,gif,svg",
+  "exec": "npm run generate-images"
+}

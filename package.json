@@ -2,7 +2,7 @@
   "name": "scorm",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",  
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,11 +19,14 @@
     "web-vitals": "^2.1.4",
     "xmlbuilder": "^15.1.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
+"scripts": {
+    "start": "concurrently \"nodemon --config nodemon.json\" \"react-scripts start\"",
     "build": "react-scripts build && workbox injectManifest workbox-config.js && node convert-manifest.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate-images": "node scripts/generateImages.js",
+    "postinstall": "npm run generate-images",
+    "nodemon": "nodemon"
   },
   "workbox": {
     "globDirectory": "build/",
@@ -53,6 +56,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.5",
     "workbox-cli": "^7.1.0",
