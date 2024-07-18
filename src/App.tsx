@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { initializeScorm, getScormData, setScormData, finishScorm } from './lib/scorm';
+import { Header } from './components/Header';
+import data from './data/data.json'
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -17,13 +19,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="text-3xl font-bold underline bg-orange-600">
-          <div className="text-pretty font-extrabold bg-slate-500"> 
-            
-          </div>
-        </h1>
-      </header>
+       <Header title={data.title} />
     </div>
   );
 }

@@ -21,7 +21,7 @@
   },
 "scripts": {
     "start": "concurrently \"nodemon --config nodemon.json\" \"react-scripts start\"",
-    "build": "react-scripts build && workbox injectManifest workbox-config.js && node convert-manifest.js",
+    "build": "react-scripts build && workbox injectManifest workbox-config.js && node scripts/convert-manifest.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-images": "node scripts/generateImages.js",

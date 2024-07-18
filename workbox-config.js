@@ -5,7 +5,7 @@ module.exports = {
     globPatterns: [
       '**/*.{js,css,html,png}'
     ],
-    swSrc: 'src/service-worker.ts',
+    swSrc: 'src/lib/service-worker.ts',
     swDest: 'build/service-worker.js',
   };
   

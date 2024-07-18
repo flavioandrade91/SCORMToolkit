@@ -3,8 +3,8 @@ const path = require('path');
 const xmlbuilder = require('xmlbuilder');
 
 async function convertManifest() {
-  const manifestPath = path.join(__dirname, 'build', 'asset-manifest.json');
-  const outputPath = path.join(__dirname, 'build', 'imsmanifest.xml');
+  const manifestPath = path.join(__dirname, '../build/asset-manifest.json');
+  const outputPath = path.join(__dirname, '../build/imsmanifest.xml');
 
   try {
     const manifest = await fs.readJson(manifestPath);
