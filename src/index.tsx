@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css'; // Importa o arquivo CSS principal
-import App from './App';
+import {App} from './App';
 import * as serviceWorkerRegistration from './lib/serviceWorkerRegistration';
 import reportWebVitals from './lib/reportWebVitals';
 

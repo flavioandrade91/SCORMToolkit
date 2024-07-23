@@ -8,7 +8,6 @@ const images = {
   "baloonWhiteBottom": "./assets/baloonWhiteBottom.svg",
   "baloonWhiteTop": "./assets/baloonWhiteTop.svg",
   "BannerHeader": "./assets/BannerHeader.svg",
-  "bolaBranca": "./assets/bolaBranca.svg",
   "BorderBottomGray": "./assets/BorderBottomGray.svg",
   "BorderBottomPurple": "./assets/BorderBottomPurple.svg",
   "BorderBottomWhitRig": "./assets/BorderBottomWhitRig.svg",
@@ -19,7 +18,8 @@ const images = {
   "BorderRigOrange": "./assets/BorderRigOrange.svg",
   "BorderTopPurple": "./assets/BorderTopPurple.svg",
   "BorderTopPurpleLeft": "./assets/BorderTopPurpleLeft.svg",
-  "briefing": "./assets/briefing.svg",
+  "FormaLinhasPurpleBlack": "./assets/FormaLinhasPurpleBlack.svg",
+  "iconFolha": "./assets/iconFolha.svg",
   "images": "./assets/images.js"
 };
 

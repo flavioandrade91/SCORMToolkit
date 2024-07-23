@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 import { initializeScorm, getScormData, setScormData, finishScorm } from './lib/scorm';
-import { Header } from './components/Header';
-import data from './data/data.json'
+import { Home } from './pages';
 
-const App: React.FC = () => {
+export function App(){
   useEffect(() => {
     if (initializeScorm()) {
       const completionStatus = getScormData('cmi.core.lesson_status');
@@ -19,9 +18,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-       <Header title={data.title} />
+       <Home/>
     </div>
   );
 }
-
-export default App;

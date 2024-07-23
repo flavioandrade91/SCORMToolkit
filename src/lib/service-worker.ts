@@ -4,6 +4,8 @@ import { precacheAndRoute, cleanupOutdatedCaches } from 'workbox-precaching';
 import { registerRoute } from 'workbox-routing';
 import { StaleWhileRevalidate } from 'workbox-strategies';
 
+import { RouteHandlerCallbackOptions } from 'workbox-core';
+
 clientsClaim();
 
 declare const self: ServiceWorkerGlobalScope & {
@@ -14,10 +16,16 @@ precacheAndRoute(self.__WB_MANIFEST);
 
 cleanupOutdatedCaches();
 
+
 registerRoute(
-  ({ request }) => ['document', 'script', 'style', 'image', 'font'].includes(request.destination),
+  ({ request }: RouteHandlerCallbackOptions) => ['document', 'script', 'style', 'image', 'font'].includes(request.destination),
   new StaleWhileRevalidate()
 );
+
+// registerRoute(
+//   ({ request }) => ['document', 'script', 'style', 'image', 'font'].includes(request.destination),
+//   new StaleWhileRevalidate()
+// );
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {

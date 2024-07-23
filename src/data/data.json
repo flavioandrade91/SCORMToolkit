@@ -1,28 +1,28 @@
 {
-    "title": "titulo",
+    "title": "criatividade e ideação em projetos de inovação",
     "apresentacao": [
       {
-        "titulo": ""
+        "titulo": "Apresentação"
       },
       {
-        "parag": ""
+        "parag": "As pessoas vivenciam um período em que as mudanças ocorrem com cada vez mais frequência. Isso demanda delas a habilidade de reaprender continuamente, além de desconstituir hábitos e rotinas para se adaptar às transformações cotidianas."
       },
       {
-        "parag": ""
+        "parag": "É comum afirmar que a única constante é a mudança. Portanto, é essencial cultivar uma mentalidade inovadora para acolher as mudanças de forma positiva, evitando tratá-las como adversárias. "
       },
       {
-        "parag": ""
+        "parag": "Bons estudos!! "
       }
     ],
     "contexto": [
       {
-        "titulo": ""
+        "titulo": "contexto"
       },
       {
-        "parag": ""
+        "parag": "Em Criatividade e Ideação em Projetos de Inovação, você aprenderá sobre ferramentas de ideação para inovação, que são fundamentais para impulsionar a criatividade e conceber ideias inovadoras.  "
       },
       {
-        "parag": ""
+        "parag": "Para isso, é importante conhecer as necessidades e demandas do mercado, desenvolver uma persona e o mapa de empatia para ela, utilizar alguma ferramenta de ideação para levantamento e desenvolvimento da ideia, bem como realizar uma pesquisa metaprojetual para entender o mercado, a sociedade, a economia e, assim, verificar a viabilidade da ideia diante de todo o cenário conhecido "
       },
       {
         "parag": ""
@@ -41,37 +41,37 @@
     "sessoes": [
       {
         "id": 0,
-        "sessao": "",
+        "sessao": "Criatividade: como desenvolvê-la? ",
         "texto": ""
       },
       {
         "id": 1,
-        "sessao": "",
+        "sessao": "VAMOS FALAR SOBRE INOVAÇÃO?",
         "texto": ""
       },
       {
         "id": 2,
-        "sessao": "",
+        "sessao": "Mundo VUCA X Mundo BANI ",
         "texto": ""
       },
       {
         "id": 3,
-        "sessao": "",
+        "sessao": "Ferramentas da Criatividade e Ideação ",
         "texto": ""
       },
       {
         "id": 4,
-        "sessao": "",
+        "sessao": "Tempestade de ideias ",
         "texto": ""
       },
       {
         "id": 5,
-        "sessao": "",
+        "sessao": "Triz de ideias ",
         "texto": ""
       },
       {
         "id": 6,
-        "sessao": "",
+        "sessao": "PROJETO",
         "texto": ""
       },
       {
@@ -107,33 +107,33 @@
     "whiteBox": [
       {
         "id": 0,
-        "type": "",
-        "content": ""
+        "type": "MUNDO vuca",
+        "content": "O conceito de mundo VUCA surgiu no começo da década de 90, em um cenário pós-Guerra Fria para explicar o comportamento da sociedade e das mudanças que vinham acontecendo. Volatilidade, Incerteza, Complexidade e Ambiguidade são os pilares do mundo VUCA"
       },
       {
         "id": 1,
-        "type": "",
-        "content": ""
+        "type": "MUNDO vuca",
+        "content": "Vamos conhecer melhor cada conceito do MUNDO VUCA."
       },
       {
         "id": 2,
-        "type": "",
-        "content": ""
+        "type": "MUNDO bani",
+        "content": "Em 2018, surgiu o mundo BANI, vindo em resposta às mudanças aceleradas que o mundo tem passado e que o termo VUCA não conseguia mais descrever. O termo BANI significa Brittle, Anxious, Nonlinear and Incomprehensible, em português Frágil, Ansioso, Não Linear, Incompreensível."
       },
       {
         "id": 3,
-        "type": "",
-        "content": ""
+        "type": "Por que a reforma de uma sala de estar é um projeto? ",
+        "content": "      Para reformá-la, é necessário fazer um planejamento de gastos, um cronograma, tirar os móveis, levantar as ideias de como ficará, desenhar a sala, lixar as paredes, comprar os materiais, realizar a reforma necessária e depois colocar os móveis novamente no lugar. "
       },
       {
         "id": 4,
-        "type": "",
-        "content": ""
+        "type": "Por que a reforma de uma sala de estar é um projeto?",
+        "content": "Pensando nisso, o projeto inicia-se com todo o planejamento, tem a continuidade com a reforma acontecendo e encerra-se com a sala concluída. "
       },
       {
         "id": 5,
-        "type": "",
-        "content": ""
+        "type": "Por que a reforma de uma sala de estar é um projeto?",
+        "content": "O legal é que um projeto te ajuda a enxergar e planejar toda a construção do produto até o produto final. "
       },
       {
         "id": 6,
@@ -374,38 +374,38 @@
     "sanfonas": [
       {
         "id": 0,
-        "title": "",
-        "text": ""
+        "title": "GARGALOS",
+        "text": "Pode ser entendido como limitação, um obstáculo ou um empecilho, por exemplo. Ao analisar o seu público, é possível identificar gargalos no seu dia a dia, nos processos, nas atividades e em suas necessidades."
       },
       {
         "id": 1,
-        "title": "",
-        "text": ""
+        "title": "OPORTUMIDADES",
+        "text": "Ao analisar as necessidades do público, conhecer e entender os gargalos deles, um empreendedor está diante das oportunidades de um novo negócio, de uma nova possibilidade e de uma possível inovação."
       },
       {
         "id": 2,
-        "title": "",
-        "text": ""
+        "title": "RISCOS",
+        "text": "Oportunidade não é certeza de sucesso, por isso, sempre quando se fala em oportunidades, é preciso falar também dos riscos que essa oportunidade tem. Ao pensar nas necessidades do seu público, pensar nos gargalos, visualizar as oportunidades, há também de pensar nos riscos para a inovação de forma realista. "
       },
       {
         "id": 3,
-        "title": "",
-        "text": ""
+        "title": "DESAFIOS",
+        "text": "Diante de todo o processo, após percorrer todo esse caminho, existe um desafio pela frente, não é mesmo?!"
       },
       {
         "id": 4,
-        "title": "",
-        "text": ""
+        "title": "PESQUISA BIBLIOGRÁFICA",
+        "text": "A pesquisa bibliográfica nada mais é do que a leitura de livros, artigos científicos, artigos acadêmicos, jornais, slides e materiais disponibilizados na internet, como, por exemplo, com o objetivo de coletar ideias e conteúdos sobre um determinado tema. "
       },
       {
         "id": 5,
-        "title": "",
-        "text": ""
+        "title": "PESQUISA DE CAMPO",
+        "text": "Ela é chamada de pesquisa de campo por ter esse real objetivo: realizar um estudo com o intuito de observar, fazer coleta de dados, analisar e interpretar os resultados. "
       },
       {
         "id": 6,
-        "title": "",
-        "text": ""
+        "title": "PESQUISA DE ANTERIORIDADE",
+        "text": "É uma pesquisa sobre informações tecnológicas que comprovem a inexistência de um produto idêntico. Essa pesquisa pode prevenir conflitos e reduzir riscos de perda do investimento de tempo e dinheiro. Por exemplo, se você deseja criar uma marca com o nome Qui Trem Bom, mas já existe uma marca com esse mesmo nome em uma outra cidade, isso te impossibilita de patenteá-lo. "
       },
       {
         "id": 7,
